@@ -57,3 +57,7 @@ coverage/
 # Do not push DB setup script (contains local DB/schema setup)
 backend/Scripts/
 # NOTE: backend/Scripts/ and backend/Migrations/ are NOT ignored - they are tracked for version control
+
+# Local test/debug artifacts (should never be committed)
+tmp/
+backend/temp_build_output/
