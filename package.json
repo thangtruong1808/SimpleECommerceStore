@@ -1,0 +1,14 @@
+{
+  "name": "simple-ecommerce-store",
+  "private": true,
+  "scripts": {
+    "start": "npm run prestart && concurrently -n \"backend,frontend\" -c \"blue,green\" \"npm run start:backend\" \"npm run start:frontend\"",
+    "prestart": "node scripts/kill-previous.js && (npx --yes kill-port 5001 5173 5174 5175 || node -e \"process.exit(0)\")",
+    "start:backend": "dotnet run --project backend",
+    "start:frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "kill-port": "^2.0.1"
+  }
+}

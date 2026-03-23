@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Environment files (contain secrets)
+frontend/.env
+backend/.env
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+*.lcov
+
+# Do not push DB setup script (contains local DB/schema setup)
+backend/Scripts/
+# NOTE: backend/Scripts/ and backend/Migrations/ are NOT ignored - they are tracked for version control

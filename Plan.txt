@@ -1,0 +1,65 @@
+🛒 Simple E‑Commerce Store (Single Vendor) — Perfect for Portfolio
+It demonstrates everything employers expect from a junior full‑stack developer:
+1) User Authenticatio
+- Register
+- Login
+- Reset password
+- JWT‑based auth (C# Identity)
+- Role‑based access: Customer and Admin
+2) Product Catalog
+Customers can:
+- View product list
+- Search
+- Filter by category
+- View product details
+Admin can:
+- Add products
+- Edit products
+- Delete products
+- Upload images
+This shows CRUD + file uploads + admin permissions
+
+2) Shopping Cart
+- Add to cart
+- Remove from cart
+- Update quantity
+- Cart stored in backend
+This shows state management on the frontend.
+
+4) Checkout & Payment
+- Stripe checkout
+- Order confirmation
+- Store order in database
+This shows integration with external APIs.
+
+5) Order Management
+Customers:
+- View order history
+Admin:
+- View all orders
+- Update order status (Processing → Shipped → Delivered)
+This shows relational data and admin workflows
+
+6) Admin Dashboard
+A simple dashboard with:
+- Total sales
+- Total orders
+- Total customers
+- Best‑selling products
+You can use:
+- Recharts
+- Chart.js
+This shows data visualization and analytics.
+
+
+🏗️ Tech Stack (Simple + Professional)
+Frontend (React)
+- React + TypeScript
+- React Redux
+- TailwindCSS
+Backend (C# / ASP.NET Core)
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+
+
